@@ -98,7 +98,7 @@ void setup(){
        voltagesStrings[4] = "Def 1  = ";
        voltagesStrings[5] = "Def 2    = ";
        voltagesStrings[6] = "Def 3  = ";
-       voltagesStrings[7] = "Filement = ";
+       voltagesStrings[7] = "Filament = ";
      
    /*
     * Postive and Negative numbers 
@@ -108,9 +108,9 @@ void setup(){
        voltagesPolarities[1] = 0;
        voltagesPolarities[2] = 0;
        voltagesPolarities[3] = 0;
-       voltagesPolarities[4] = 2048;
-       voltagesPolarities[5] = 2048;
-       voltagesPolarities[6] = 2048;
+       voltagesPolarities[4] = 0;//2048
+       voltagesPolarities[5] = 0;
+       voltagesPolarities[6] = 0;
        voltagesPolarities[7] = 0;
        
    /*
@@ -357,6 +357,5 @@ void averageInputData(){
   }
   
 }
-
 
 
